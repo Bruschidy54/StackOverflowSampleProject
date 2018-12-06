@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5744CBD421B99EBB008F0E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744CBD321B99EBB008F0E48 /* AppDelegate.swift */; };
-		5744CBD621B99EBB008F0E48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744CBD521B99EBB008F0E48 /* ViewController.swift */; };
+		5744CBD621B99EBB008F0E48 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744CBD521B99EBB008F0E48 /* SearchViewController.swift */; };
 		5744CBD921B99EBB008F0E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5744CBD721B99EBB008F0E48 /* Main.storyboard */; };
 		5744CBDB21B99EBC008F0E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5744CBDA21B99EBC008F0E48 /* Assets.xcassets */; };
 		5744CBDE21B99EBC008F0E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5744CBDC21B99EBC008F0E48 /* LaunchScreen.storyboard */; };
 		5744CBE921B99EBC008F0E48 /* StackOverflowSampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744CBE821B99EBC008F0E48 /* StackOverflowSampleProjectTests.swift */; };
 		5744CBF421B99EBC008F0E48 /* StackOverflowSampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744CBF321B99EBC008F0E48 /* StackOverflowSampleProjectUITests.swift */; };
+		5744CC0221B9A1FE008F0E48 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744CC0121B9A1FE008F0E48 /* SearchTableViewCell.swift */; };
+		5744CC0421B9A82D008F0E48 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744CC0321B9A82D008F0E48 /* Question.swift */; };
+		5744CC0621B9AB5D008F0E48 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744CC0521B9AB5D008F0E48 /* APIService.swift */; };
+		5744CC0921B9AF37008F0E48 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744CC0821B9AF37008F0E48 /* User.swift */; };
+		5744CC0B21B9B68D008F0E48 /* StackOverflowResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5744CC0A21B9B68D008F0E48 /* StackOverflowResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		5744CBD021B99EBB008F0E48 /* StackOverflowSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflowSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5744CBD321B99EBB008F0E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5744CBD521B99EBB008F0E48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5744CBD521B99EBB008F0E48 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		5744CBD821B99EBB008F0E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5744CBDA21B99EBC008F0E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5744CBDD21B99EBC008F0E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		5744CBEF21B99EBC008F0E48 /* StackOverflowSampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackOverflowSampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5744CBF321B99EBC008F0E48 /* StackOverflowSampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowSampleProjectUITests.swift; sourceTree = "<group>"; };
 		5744CBF521B99EBC008F0E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5744CC0121B9A1FE008F0E48 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		5744CC0321B9A82D008F0E48 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		5744CC0521B9AB5D008F0E48 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		5744CC0821B9AF37008F0E48 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5744CC0A21B9B68D008F0E48 /* StackOverflowResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,15 @@
 		5744CBD221B99EBB008F0E48 /* StackOverflowSampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				5744CC0721B9AF1C008F0E48 /* Models */,
 				5744CBD321B99EBB008F0E48 /* AppDelegate.swift */,
-				5744CBD521B99EBB008F0E48 /* ViewController.swift */,
-				5744CBD721B99EBB008F0E48 /* Main.storyboard */,
 				5744CBDA21B99EBC008F0E48 /* Assets.xcassets */,
-				5744CBDC21B99EBC008F0E48 /* LaunchScreen.storyboard */,
 				5744CBDF21B99EBC008F0E48 /* Info.plist */,
+				5744CBDC21B99EBC008F0E48 /* LaunchScreen.storyboard */,
+				5744CBD721B99EBB008F0E48 /* Main.storyboard */,
+				5744CC0121B9A1FE008F0E48 /* SearchTableViewCell.swift */,
+				5744CBD521B99EBB008F0E48 /* SearchViewController.swift */,
+				5744CC0521B9AB5D008F0E48 /* APIService.swift */,
 			);
 			path = StackOverflowSampleProject;
 			sourceTree = "<group>";
@@ -123,6 +136,16 @@
 				5744CBF521B99EBC008F0E48 /* Info.plist */,
 			);
 			path = StackOverflowSampleProjectUITests;
+			sourceTree = "<group>";
+		};
+		5744CC0721B9AF1C008F0E48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5744CC0321B9A82D008F0E48 /* Question.swift */,
+				5744CC0821B9AF37008F0E48 /* User.swift */,
+				5744CC0A21B9B68D008F0E48 /* StackOverflowResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5744CBD621B99EBB008F0E48 /* ViewController.swift in Sources */,
+				5744CC0221B9A1FE008F0E48 /* SearchTableViewCell.swift in Sources */,
+				5744CC0621B9AB5D008F0E48 /* APIService.swift in Sources */,
+				5744CC0921B9AF37008F0E48 /* User.swift in Sources */,
+				5744CBD621B99EBB008F0E48 /* SearchViewController.swift in Sources */,
 				5744CBD421B99EBB008F0E48 /* AppDelegate.swift in Sources */,
+				5744CC0421B9A82D008F0E48 /* Question.swift in Sources */,
+				5744CC0B21B9B68D008F0E48 /* StackOverflowResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
